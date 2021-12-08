@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shooting Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="p1-win">Player 1-Won:</h3>
+      <h3 class="p2-win">Player 2-Won:</h3>
+      <button class="start-btn">Start Game</button>
+      <button class="reset-btn">New Game</button>
+      <h2 class="winner-1"></h2>
+      <h2 class="winner-2"></h2>
+      <div class="players">
+        <div class="player-1">
+          <h3 class="health-1">Health:</h3>
+          <h1>Player 1</h1>
+          <button class="shoot shoot-1">Shoot</button>
+        </div>
+        <div class="player-2">
+          <h3 class="health-2">Health:</h3>
+          <h1>Player 2</h1>
+          <button class="shoot shoot-2">Shoot</button>
+        </div>
+      </div>
+      <button class="next">Next Match</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
